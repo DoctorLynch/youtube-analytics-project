@@ -1,12 +1,11 @@
 import json
-import os
 
 from googleapiclient.discovery import build
 
 
 class Channel:
     """Класс для ютуб-канала"""
-    api_key: str = os.getenv('YT_API_KEY')
+    api_key: str = 'AIzaSyDRERmmuEbSp6BnuDpMURlskRTjs1AcDrw'
     youtube = build('youtube', 'v3', developerKey=api_key)
 
     def __init__(self, channel_id: str) -> None:
