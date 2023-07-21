@@ -46,7 +46,7 @@ if __name__ == '__main__':
         "country": "RU"
       },
       "statistics": {
-        "viewCount": "2303120",
+        "clear": "2303120",
         "subscriberCount": "25900",
         "hiddenSubscriberCount": false,
         "videoCount": "685"
