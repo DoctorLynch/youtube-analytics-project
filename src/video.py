@@ -26,12 +26,6 @@ class PLVideo(Video):
         self.id_playlist = id_playlist
 
 
-video1 = Video('AWX4JnAnjBE')  # 'AWX4JnAnjBE' - это id видео из ютуб
-video2 = PLVideo('4fObz_qw9u4', 'PLv_zOGKKxVph_8g2Mqc3LMhj0M_BfasbC')
-print(str(video1))
-print(str(video2))
-
-
 
 
 
